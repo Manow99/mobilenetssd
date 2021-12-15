@@ -165,7 +165,13 @@ def event_handle(event,json_line):
             replyObj = 
             TextSendMessage(text=str(response)) 
             line_bot_api.reply_message(rtoken, replyObj)
-        else : 
+
+      
+            
+            
+         
+
+      eelse : 
              headers = request.headers
              json_headers = ({k:v for k, v in headers.items()}) 
              json_headers.update({'Host':'bots.dialogflow.com'}) 
