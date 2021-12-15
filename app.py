@@ -169,9 +169,9 @@ def event_handle(event,json_line):
       
             
             
-         
+ 
 
-    
+
         else : 
              headers = request.headers
              json_headers = ({k:v for k, v in headers.items()}) 
