@@ -162,7 +162,7 @@ def event_handle(event,json_line):
             url = "https://covid19.ddc.moph.go.th/api/Cases/today-cases-all"
             #response = requests.get(url)
             #response = response.json()
-            replyObj = TextSendMessage(text="ไปดิ")
+            replyObj = TextSendMessage(text="https://covid19.ddc.moph.go.th/api/Cases/today-cases-all")
             line_bot_api.reply_message(rtoken, replyObj)
         elif msg == "Covid":
             url = "https://covid19.ddc.moph.go.th/api/Cases/today-cases-all"
